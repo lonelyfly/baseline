@@ -1,3 +1,6 @@
 [submodule "CMSIS/CMSIS_RTX"]
 	path = CMSIS/CMSIS_RTX
 	url = git@github.com:ARM-software/CMSIS-RTX.git
+[submodule "hal/st/stm32l1xx-hal-driver"]
+	path = hal/st/stm32l1xx-hal-driver
+	url = git@github.com:STMicroelectronics/stm32l1xx-hal-driver.git
