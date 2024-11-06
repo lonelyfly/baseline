@@ -18,7 +18,8 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-
+#include "CMSIS/RTOS2/Include/cmsis_os2.h"
+#include "RTX_Config.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
@@ -50,7 +51,16 @@ static void MX_GPIO_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
-
+/*-------------------------------------------------------------------------*/
+/** Initial services after kernel has started.
+*/
+static void init(void *argument)
+{
+    while(1)
+    {
+    
+    }
+}
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
@@ -84,10 +94,22 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  osKernelInitialize();
   /* USER CODE BEGIN 2 */
-
+  osThreadAttr_t a = {
+                .name = "test",
+                .attr_bits = osThreadDetached,
+                .cb_mem = NULL,
+                .cb_size = 0,
+                .stack_mem = NULL,
+                .stack_size = 1024,
+                .priority = 8,
+                .tz_module = NULL,
+                .reserved = 0
+            };
+  osThreadNew(init, NULL, &a);
   /* USER CODE END 2 */
-
+  osKernelStart();
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)

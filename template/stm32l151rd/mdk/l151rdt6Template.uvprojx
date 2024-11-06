@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32L151xD,STM32L1</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\..\bsp\stm32l151rdTemplate\Inc;..\..\..\hal\st\STM32CubeL1\Drivers\STM32L1xx_HAL_Driver\Inc;..\..\..\hal\st\STM32CubeL1\Drivers\STM32L1xx_HAL_Driver\IncLegacy;..\..\..\hal\st\STM32CubeL1\Drivers\CMSIS\Device\ST\STM32L1xx\Include;..\..\..\CMSIS\CMSIS\Core\Include;..\..\..\CMSIS\CMSIS\RTOS2\Include;..\..\..\CMSIS\CMSIS\RTOS2\RTX\Include</IncludePath>
+              <IncludePath>..\..\..\bsp\stm32l151rdTemplate\Inc;..\..\..\hal\st\STM32CubeL1\Drivers\STM32L1xx_HAL_Driver\Inc;..\..\..\hal\st\STM32CubeL1\Drivers\STM32L1xx_HAL_Driver\IncLegacy;..\..\..\hal\st\STM32CubeL1\Drivers\CMSIS\Device\ST\STM32L1xx\Include;..\..\..\CMSIS\CMSIS\Core\Include;..\..\..\CMSIS\CMSIS\RTOS2\Include;..\..\..\CMSIS\CMSIS\RTOS2\RTX\Include;..\..\..\CMSIS</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
