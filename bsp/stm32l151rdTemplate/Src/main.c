@@ -141,6 +141,44 @@ void SystemClock_Config(void)
   }
 }
 
+/*-------------------------------------------------------------------------*/
+/**
+*/
+__WEAK void UserIdleProcess(void)
+{
+    // Don't add statement here, redefine it in your source file
+}
+
+/*-------------------------------------------------------------------------*/
+/** OS Idle Thread
+*/
+__NO_RETURN void osRtxIdleThread (void *argument) 
+{
+    (void)argument;
+    
+    for (;;) 
+    {
+        UserIdleProcess();
+    }
+}
+
+/*-------------------------------------------------------------------------*/
+/** OS Error Callback function
+*/
+__WEAK uint32_t osRtxErrorNotify (uint32_t code, void *object_id) 
+{
+    (void)object_id;
+    
+#if (defined(RESET_WHEN_OS_FAULT) && RESET_WHEN_OS_FAULT)    
+    SoftwareReset();
+#endif //(defined(RESET_WHEN_OS_FAULT) && RESET_WHEN_OS_FAULT)    
+    
+    /* Go to infinite loop when fault occurs */
+    while (1)
+    {
+    }
+}
+
 /**
   * @brief GPIO Initialization Function
   * @param None

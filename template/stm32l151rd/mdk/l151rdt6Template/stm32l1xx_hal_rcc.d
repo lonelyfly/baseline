@@ -1,0 +1,32 @@
+l151rdt6template/stm32l1xx_hal_rcc.o: \
+  ..\..\..\hal\st\STM32CubeL1\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.c \
+  ..\..\..\hal\st\STM32CubeL1\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal.h \
+  ..\..\..\bsp\stm32l151rdTemplate\Inc\stm32l1xx_hal_conf.h \
+  ..\..\..\hal\st\STM32CubeL1\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_rcc.h \
+  ..\..\..\hal\st\STM32CubeL1\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_def.h \
+  ..\..\..\hal\st\STM32CubeL1\Drivers\CMSIS\Device\ST\STM32L1xx\Include\stm32l1xx.h \
+  ..\..\..\hal\st\STM32CubeL1\Drivers\CMSIS\Device\ST\STM32L1xx\Include\stm32l151xd.h \
+  ..\..\..\CMSIS\CMSIS\Core\Include\core_cm3.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  ..\..\..\CMSIS\CMSIS\Core\Include\cmsis_version.h \
+  ..\..\..\CMSIS\CMSIS\Core\Include\cmsis_compiler.h \
+  ..\..\..\CMSIS\CMSIS\Core\Include\cmsis_armclang.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\arm_compat.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\arm_acle.h \
+  ..\..\..\CMSIS\CMSIS\Core\Include\mpu_armv7.h \
+  ..\..\..\hal\st\STM32CubeL1\Drivers\CMSIS\Device\ST\STM32L1xx\Include\system_stm32l1xx.h \
+  ..\..\..\hal\st\STM32CubeL1\Drivers\STM32L1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  ..\..\..\hal\st\STM32CubeL1\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_rcc_ex.h \
+  ..\..\..\hal\st\STM32CubeL1\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_gpio.h \
+  ..\..\..\hal\st\STM32CubeL1\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_gpio_ex.h \
+  ..\..\..\hal\st\STM32CubeL1\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_dma.h \
+  ..\..\..\hal\st\STM32CubeL1\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_cortex.h \
+  ..\..\..\hal\st\STM32CubeL1\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_flash.h \
+  ..\..\..\hal\st\STM32CubeL1\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_flash_ex.h \
+  ..\..\..\hal\st\STM32CubeL1\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_flash_ramfunc.h \
+  ..\..\..\hal\st\STM32CubeL1\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_pwr.h \
+  ..\..\..\hal\st\STM32CubeL1\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_pwr_ex.h \
+  ..\..\..\hal\st\STM32CubeL1\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_tim.h \
+  ..\..\..\hal\st\STM32CubeL1\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_tim_ex.h \
+  ..\..\..\hal\st\STM32CubeL1\Drivers\STM32L1xx_HAL_Driver\Inc\stm32l1xx_hal_exti.h
