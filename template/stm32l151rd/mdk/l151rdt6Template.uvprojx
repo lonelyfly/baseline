@@ -49,8 +49,8 @@
             <NotGenerated>0</NotGenerated>
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
-          <OutputDirectory>l151rdt6Template\</OutputDirectory>
-          <OutputName>l151rdt6Template</OutputName>
+          <OutputDirectory>..\..\..\build\stm32l151rdTemplate\</OutputDirectory>
+          <OutputName>stm32l151rdTemplate</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>1</CreateHexFile>
