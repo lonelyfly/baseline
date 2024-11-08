@@ -176,9 +176,7 @@
   "outDir": "build",
   "deviceName": null,
   "packDir": null,
-  "miscInfo": {
-    "uid": "57d279ab2c2d7851fd50489b01cc7190"
-  },
+  "miscInfo": {},
   "targets": {
     "l151rdt6Template": {
       "excludeList": [],
@@ -296,31 +294,19 @@
         },
         "options": "null"
       },
-      "uploader": "STLink",
+      "uploader": "JLink",
       "uploadConfig": {
         "bin": "",
-        "proType": "SWD",
-        "resetMode": "default",
-        "runAfterProgram": true,
-        "speed": 4000,
-        "address": "0x8000000",
-        "elFile": "None",
-        "optionBytes": ".eide/l151rdt6template.st.option.bytes.ini",
+        "baseAddr": "",
+        "cpuInfo": {
+          "vendor": "null",
+          "cpuName": "null"
+        },
+        "proType": 1,
+        "speed": 8000,
         "otherCmds": ""
       },
-      "uploadConfigMap": {
-        "JLink": {
-          "bin": "",
-          "baseAddr": "",
-          "cpuInfo": {
-            "vendor": "null",
-            "cpuName": "null"
-          },
-          "proType": 1,
-          "speed": 8000,
-          "otherCmds": ""
-        }
-      },
+      "uploadConfigMap": {},
       "custom_dep": {
         "name": "default",
         "incList": [
@@ -332,14 +318,15 @@
           "../../../CMSIS/CMSIS/RTOS2/Include",
           "../../../CMSIS/CMSIS/RTOS2/RTX/Include",
           "../../../CMSIS",
-          "../mdk/RTE/_l151rdt6Template"
+          ".cmsis/include",
+          "RTE/_l151rdt6Template"
         ],
-        "libList": [],
         "defineList": [
           "USE_HAL_DRIVER",
           "STM32L151xD",
           "STM32L1"
-        ]
+        ],
+        "libList": []
       },
       "builderOptions": {
         "AC6": {
